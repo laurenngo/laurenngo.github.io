@@ -4,41 +4,204 @@
 <html>
 <head>
   <title>Lauren Go's Portfolio</title>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/path/to/parallax.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/animated-heading-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Princess+Sofia' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.5.0/slick/slick.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/modernizr.js"></script>
+  <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> -->
+  <script src="./js/script.js"></script>
 </head>
+
+<nav>
+ <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/"><img class="logo" src="./images/LaurenGO.png"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="links" href="#work-div">WORK</a></li>
+          <li><a class="links" href="./images/LAUREN GO - creddle resume.pdf" target="_blank">RESUME</a></li>
+          <li><a class="links" href="#contact-div">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+</nav>
+
+
 <body>
 
+  <!-- HOME DIV -->
+    <div id="home-div">
+      <span id="name">Lauren Go </span><br>
 
-    <div class="container">
+      <section>
+        <h1 id="occupation" class="cd-headline letters type">
+
+            <span>Web Developer</span>
+          <span class="cd-words-wrapper">
+            <b class="is-visible options"> / Design Enthusiast</b>
+            <b class="options"> / Avid Foodie</b>
+            <b class="options"> / Thespian</b>
+          </span>
+        </h1>
+      </section>
+
+      <a href="#work-div"><i class="mdi-hardware-keyboard-arrow-down"></i></a>
+
+    </div>
 
 
-     <!--  <div id="details">
-        <div id="name">Lauren Go</div>
+    <!-- WORK DIV -->
 
-        <div id="web-dev">fullstack web developer</div>
+    <div id="work-div">
 
-        <div id="coming-soon">portfolio coming soon.</div>
-      </div> -->
+     <div class="row">
 
 
-      <div class="flip-container details" ontouchstart="this.classList.toggle('hover');">
-        <div class="flipper">
-          <div class="front">
-             <div id="name">Lauren Go</div>
-             <div id="web-dev">fullstack web developer</div>
-          </div>
-          <div class="back">
-            <div id="coming-soon">portfolio coming soon.</div>
-          </div>
+      <div id="monitor-div" class="col s12 m6">
+
+
+        <div style="width:512px; margin-right:0; left:95px; top:12px" class="slider slider-for">
+          <img class="slickImg" src="./images/rex2.png">
+          <img class="slickImg" src="./images/fstvl-screenshot.png">
+
+          <img class="slickImg" src="./images/foodli-screenshot.png">
+
+          <img class="slickImg" src="./images/wlg2-screenshot.jpg">
         </div>
+
+        <div><img id="monitor" src="http://pngimg.com/upload/laptop_PNG5893.png"></div>
       </div>
 
+      <div id="work-header">RECENT WORK</div>
+      
+      <div class="project-details">
+      
+          
+          <div class="show" id="rex-details">
+            <div class="project-header">REX</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn" href="http://sendrex.herokuapp.com" target="_blank">SEE PROJECT SITE</a>
+
+            <div class="detail">Keep track of your favorite travel experiences! Share and recommend them to friends and family.</div><br>
+
+            <div class="detail">Final project at General Assembly, done in a group of 2 in WEEK 11. Developed in <strong>1 week</strong> using <strong>MEAN Stack</strong>, <strong>Sails.js</strong>, <strong>Materialize CSS</strong>, & <strong>Angular Material</strong>. Powered by data from the <strong>Yelp API</strong>.</div>
+          </div>
+
+          <div class="hidden" id="fstvl-details">
+            <div class="project-header">FSTVL</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn" href="http://fstvl.herokuapp.com" target="_blank">SEE PROJECT SITE</a>
+
+            <div class="detail">Your personal planning companion for events that host a number of sub-events, such as festivals, conferences and conventions. Made for both consumer users (event-goers) and host users (event hosts).</div><br>
+
+            <div class="detail">Second project at General Assembly, done in a group of 2 in WEEK 8. Developed in <strong>1 week</strong> using <strong>Ruby on Rails</strong>, <strong>Javascript</strong>, & <strong>UIKit</strong>.</div>
+          </div>
+
+          <div class="hidden" id="foodli-details">
+            <div class="project-header">food&ltli&gt</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn" href="http://food-li.herokuapp.com" target="_blank">SEE PROJECT SITE</a>
+
+            <div class="detail">Search and keep track of your favorite recipes! Add recipes straight onto a grocery list that adds the quantities of like items for you! The grocery list also automatically sorts your list by grocery-department to facilitate your shopping trips.</div><br>
+
+            <div class="detail">First project for General Assembly, done solo in WEEK 4. Developed in <strong>1 week</strong> using <strong>Javascript</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>, & some <strong>Bootstrap</strong>. Powered by data from the <strong>Big Oven API</strong>.</div>
+          </div>
+
+          <div class="hidden" id="wlg-details">
+            <div class="project-header" style="font-size:30px">WINNIE GO | CERAMICIST (PORTFOLIO)</div>
+            <a class="see-work waves-effect waves-light teal lighten-4 btn" href="http://winnielgo.bitballoon.com" target="_blank">SEE PROJECT SITE</a>
+
+            <div class="detail">Artist portfolio for Winnie Go, a ceramicist based in the Philippines and Singapore. She is also my mom!</div><br>
+
+            <div class="detail">Built over <strong>48 hours</strong> as a homework challenge at General Assembly to produce a site over a weekend and learn a few new front-end libraries.I played with <strong>parallax</strong> and <strong>scroll reveal effects</strong>.</div>
+         </div>
+
+
+      </div>
+      
+      <div id="halp">
+        <div id="work-selection" class="slider slider-nav">
+           <img style="width:400px" class="work-thumbnail" id="rex-thumb" src="./images/rex2.png">
+           <img style="width:400px" class="work-thumbnail" id="fstvl-thumb" src="./images/fstvl-screenshot.png">
+
+           <img style="width:400px" class="work-thumbnail" id="foodli-thumb" src="./images/foodli-screenshot.png">
+
+           <img style="width:400px" class="work-thumbnail" id="wlg-thumb" src="./images/winniego-screenshot.png">
+           <!-- <div class="work-thumbnail placeholder"></div> -->
+           <!-- <div class="work-thumbnail placeholder"></div> -->
+           <!-- <div class="work-thumbnail placeholder"></div> -->
+
+        </div>
+      </div>
+     </div>
+
+
+    </div>
+
+
+    <!-- RESUME DIV -->
+
+    <!-- <div id="resume-div">
+
+
+
+
+    </div> -->
+
+    <!-- CONTACT DIV -->
+
+    <div id="contact-div" class="row">
+
+
+      <div id="img-div" class="col s12 m6">
+
+
+       
+          <img id="headshot" src="./images/lauren-headshot.jpg">
+           <div id="icon-box">
+          <a class="tooltipped" data-position="top" data-delay="50" data-tooltip="lauren.nicole.go@gmail.com" id="mail-contact" style="font-size:18px" href="mailto:lauren.nicole.go@gmail.com"><img class="icons" src="./images/mail.png"></a>
+          <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="lauren.go" href="http://www.facebook.com/lauren.go"><span><img id="facebook" class="icons" src="./images/facebook2.png"></span></a>
+          <a class="tooltipped icon-link" data-position="top" data-delay="50" data-tooltip="golauren" href="http://www.linkedin.com/in/golauren"><span><img id="linkedin" class="icons" src="./images/linkedin.png"></span></a>
+          <a class="icon-link tooltipped" data-position="top" data-delay="50" data-tooltip="laurenngo" href="http://www.github.com/laurenngo"><span><img id="github" class="icons" src="./images/github3.png"></span></a>
+        </div>
+      </div>
+      <div id="contact-details" class="col s12 m6">
+
+
+        <p id="main-details">
+         <div id="hi">Hi, I'm Lauren!</div>
+       
+          <strong>I'm a fullstack web developer with a love for thoughtful, user-centered design.</strong>
+          
+        </p>
+          
+        <p id="more-details">
+
+          <br>
+
+          When I'm not coding, I am probably cooking, spending some QT with my dog Oscar, watching films, playing a good Table Top with friends, or going to see a play or musical.
+        </p>
+        <div id="interested">INTERESTED IN WORKING WITH ME?</div><br>
+        <div id="skills">
+         Some of the technologies I have experience with include: <br><br>
+            LANGUAGES: HTML5, CSS3, Javascript, Ruby, Node.js<br>
+            FRAMEWORKS: Rails, Express.js, AngularJS, Sails.js <br>
+            DATABASE TOOLS: PostgreSQL, MongoDB <br>
+            TESTING: TDD, Rspec <br>
+            OTHER: Git/Github, jQuery, Heroku, AJAX, JSON, Bootstrap, UIKit, Materialize, Angular Material<br><br>
+          For more details, feel free to check out my <a class="waves-effect waves-light btn resume-btn btn-flat" href="./images/LAUREN GO - creddle resume.pdf" target="_blank">RESUME</a>.
+          </div>
+       
+      </div>
 
     </div>
 
@@ -47,5 +210,13 @@
 
 
 
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/slick-1.5.0/slick/slick.min.js"></script>
+
 </body>
+
+<footer>
+  <div id="copyright">&copy Lauren Go, 2015</div>
+</footer>
 </html>
