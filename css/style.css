@@ -138,7 +138,7 @@ nav {
   height:100vh;
   background-color:white;
   z-index:-1;
-  padding-top:90px;
+  padding-top:105px;
   text-align:center;
 
 }
@@ -153,15 +153,17 @@ nav {
   margin-right:35px;
   margin-bottom:20px;
   position:relative;
+  top:-24px;
 
 }
 
 #monitor{
-  width:89.4%;
+  width:92%;
   /*margin-right:6%;*/
   margin-left:12%;
   position:relative;
-  bottom:450px;
+  bottom:310px;
+  right:32px;
 
   
 
@@ -174,6 +176,8 @@ nav {
 .slickImg{
   width:512px;
   left:12%;
+  position:relative;
+  display:inline;
 
 }
 
@@ -183,11 +187,15 @@ div#work-selection.slider{
 
 #work-selection{
   /*background-color:purple;*/
-  overflow:scroll;
-  position: relative;
-  bottom: 250px;
-  right: 40px;
-  height:100%;
+  /*overflow:scroll;*/
+  position: absolute;
+  /*bottom: 250px;*/
+  /*right: 40px;*/
+  /*height:100%;*/
+  width:94%;
+  left:23.9%;
+  margin-top:3%;
+
 }
 
 
@@ -206,8 +214,10 @@ div#work-selection.slider{
 
 .work-thumbnail:hover{
   opacity:0.8;
-  /*border:2px solid rgb(72,70,72);*/
-  /*border-radius:5px;*/
+  border:4px solid rgb(62,47,109);
+  border-radius:5px;
+  padding:4px;
+  
 }
 
 .project-details{
@@ -295,11 +305,11 @@ div#work-selection.slider{
 }
 
 #headshot{
-  width:50%;
-  height:420px;
+  width:64%;
+  height:350px;
   border-radius:5px;
   margin-left:20%;
-  /*margin-top:20px;*/
+  margin-top:20px;
   border: 4px solid white;
   padding:6px;
   /*bottom:100px;*/
@@ -307,12 +317,6 @@ div#work-selection.slider{
   /*top:-500px;*/
 }
 
-#img-div{
-  /*width:28%;*/
-  /*overflow:hidden;*/
-  /*min-height:contain-floats;*/
-  /*top:-800px;*/
-}
 
 #hi{
   font-size:50px;
@@ -321,8 +325,6 @@ div#work-selection.slider{
   /*color:rgb(62,47,109);*/
   color:white;
   margin-left:0;
-  /*text-align:left;*/
-  /*top:-500px;*/
   margin-bottom:30px;
   position:relative;
 }
@@ -360,7 +362,7 @@ div#work-selection.slider{
   padding-right:10px;
   padding-top:5px;
   padding-bottom:5px;
-  width:50%;
+  width:64%;
   margin-left:20%;
   margin-top:15px;
 
@@ -381,26 +383,26 @@ span #mail-contact{
 
 #github{
   /*margin-left:5.4%;*/
-  margin-right:7.14275%;
+  margin-right:6.8%;
 }
 
 #linkedin{
   /*margin-left:10.8%;*/
   /*margin-right:10.8%;*/
    /*margin-left:5.4%;*/
-  margin-right:7.14275%;
+  margin-right:6.8%;
 }
 
 #facebook{
   /*margin-left:10.8%;*/
   /*margin-right:10.8%;*/
    /*margin-left:5.4%;*/
-  margin-right:7.14275%;
+  margin-right:6.8%;
 }
 
 #mail-contact{
   /*margin-right:10.8%;*/
-  margin-right:7.14275%;
+  margin-right:6.8%;
 }
 
 
