@@ -193,7 +193,7 @@ div#work-selection.slider{
   position: absolute;
   width:94%;
   left:23.9%;
-  margin-top:2.8%;
+  margin-top:3%;
   overflow:auto;
   clear:both;
   content:' ';
@@ -308,7 +308,7 @@ div#work-selection.slider{
 }
 
 #headshot{
-  width:64%;
+  width:63%;
   height:350px;
   border-radius:5px;
   margin-left:20%;
