@@ -13,6 +13,7 @@ body{
   background-color:white;
   color:white;
   z-index:-1;
+  overflow-x:hidden;
 }
 
 nav{
@@ -24,7 +25,6 @@ nav{
 
 #copyright{
   text-align:center;
-  /*float:right;*/
   font-size:14px;
   position:relative;
   bottom:10px;
@@ -34,8 +34,6 @@ nav{
 
 footer{
   background-color:rgb(62,47,109);
-
-  /*opacity:0.8;*/
   padding-top:14px;
 }
 
@@ -101,16 +99,10 @@ nav {
 }
 
 .links:hover {
-  /*color:rgb(62,47,109);*/
+
   background-color:rgb(114,191,182);
   height:63.5px;
-  /*color:rgb(114,191,182);*/
   color:white;
-  /*padding-top:5px;*/
-  /*padding-bottom:-20px;*/
-  /*margin-top:3px;*/
-  /*height:30px;*/
-  /*text-shadow:0px 1px 1px white;*/
   font-weight:400;
 
 }
@@ -158,27 +150,38 @@ nav {
 }
 
 #monitor{
-  width:92%;
+  width:100%;
   /*margin-right:6%;*/
-  margin-left:12%;
+  /*margin-left:12%;*/
   position:relative;
-  bottom:310px;
-  right:32px;
+  /*bottom:310px;*/
+  /*right:32px;*/
+}
 
-  
-
+.screen-images{
+  width:83.5%;
+  position:relative;
+  bottom:0.7%;
+  /*right:0.25%;*/
 }
 
 #monitor-div {
   height:100vh;
 }
 
+#monitor-img-div{
+  position:relative;
+  bottom:48.5%;
+  left:4%;
+  width:90%;
+}
+
 .slickImg{
-  width:522px;
-  left:12.7%;
+  width:100%;
+  left:8.7%;
   position:relative;
   display:inline;
-  top:7px;
+  top:1%;
 }
 
 div#work-selection.slider{
@@ -186,15 +189,15 @@ div#work-selection.slider{
 }
 
 #work-selection{
-  /*background-color:purple;*/
-  /*overflow:scroll;*/
+
   position: absolute;
-  /*bottom: 250px;*/
-  /*right: 40px;*/
-  /*height:100%;*/
   width:94%;
   left:23.9%;
-  margin-top:3%;
+  margin-top:2%;
+  overflow:auto;
+  clear:both;
+  content:' ';
+  display:table;
 
 }
 
@@ -221,7 +224,7 @@ div#work-selection.slider{
 }
 
 .project-details{
-  /*background-color:orange;*/
+
   height:300px;
   color:rgb(72,70,72);
   font-weight:300;
@@ -335,8 +338,7 @@ div#work-selection.slider{
   color:white;
   font-size:20px;
   width:90%;
-  /*top:100px;*/
-  /*margin-top:16%;*/
+
 }
 
 #skills{
@@ -387,16 +389,12 @@ span #mail-contact{
 }
 
 #linkedin{
-  /*margin-left:10.8%;*/
-  /*margin-right:10.8%;*/
-   /*margin-left:5.4%;*/
+
   margin-right:6.8%;
 }
 
 #facebook{
-  /*margin-left:10.8%;*/
-  /*margin-right:10.8%;*/
-   /*margin-left:5.4%;*/
+
   margin-right:6.8%;
 }
 
@@ -407,7 +405,7 @@ span #mail-contact{
 
 
 .resume-btn{
-  /*background-color:rgb(114,191,182);*/
+
   height:25px;
   width:70px;
   font-size:16px;
