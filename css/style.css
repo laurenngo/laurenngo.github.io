@@ -181,7 +181,7 @@ nav {
   left:8.7%;
   position:relative;
   display:inline;
-  top:1%;
+  top:1.4%;
 }
 
 div#work-selection.slider{
@@ -193,7 +193,7 @@ div#work-selection.slider{
   position: absolute;
   width:94%;
   left:23.9%;
-  margin-top:2%;
+  margin-top:2.8%;
   overflow:auto;
   clear:both;
   content:' ';
