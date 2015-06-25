@@ -1,26 +1,19 @@
-/* Janky as shit*/
-
-@-webkit-keyframes jank {
-  0% {tranform: translate-x(20px)}
-  100 {transform: translate-x(-20px);}
-}
-
-.slick-active.slickImg{
-  -webkit-animation: jank 1s;
-}
-
 body{
   background-color:white;
   color:white;
   z-index:-1;
   overflow-x:hidden;
+  width:100%;
 }
+
 
 nav{
   z-index:999000;
   position:fixed;
   top:0;
   left:0;
+  background-color:rgb(229, 89,87);
+  opacity:0.9;
 }
 
 #copyright{
@@ -87,11 +80,6 @@ footer{
   opacity:0.8;
 }
 
-nav {
-  background-color:rgb(229, 89,87);
-  opacity:0.9;
-}
-
 .links{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:300;
@@ -135,84 +123,94 @@ nav {
 
 }
 
-#work-header {
+.work-header {
   font-size:50px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight:300;
   color:rgb(62,47,109);
-  margin-left:35px; 
-  text-align:right;
-  margin-right:35px;
-  margin-bottom:20px;
   position:relative;
-  top:-24px;
-
+  margin-left:54.8%;
 }
 
+.monitor-img {
+  width: 38.9%;
+  height: auto;
+  position: absolute;
+  left: 6.25%;
+  margin-top: 1.6%;
+  margin-left: 1.8%;
+}
+
+#monitor {
+  width: 42%;
+  height: auto;
+  position: absolute;
+  left: 6.3%;
+}
+
+.projectSite {
+  left: 40.5%;
+}
+
+/*
 #monitor{
   width:100%;
-  /*margin-right:6%;*/
-  /*margin-left:12%;*/
   position:relative;
-  /*bottom:310px;*/
-  /*right:32px;*/
-}
-
+}*/
+/*
 .screen-images{
   width:83.5%;
   position:relative;
   bottom:0.7%;
-  /*right:0.25%;*/
-}
+}*/
 
-#monitor-div {
-  height:100vh;
-}
+/*#monitor-div {
+  width: 40%;
+  height:auto;
+}*/
 
-#monitor-img-div{
+/*#monitor-div > img {
+  height: 100%;
+  width: 96.4%;
+  position: relative;
+  top: 110%;
+  left: 24.8%;
+}*/
+
+/*#monitor {
+  position: absolute;
+  top: 112%;
+  left: 8.7%;
+  width: 40%;
+  height: auto;
+}*/
+/*
+.monitor-img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width:100%;
+}*/
+
+/*#monitor-img-div{
   position:relative;
-  bottom:48.5%;
+  bottom:48.8%;
   left:4%;
   width:90%;
-}
-
-.slickImg{
-  width:100%;
-  left:8.7%;
-  position:relative;
-  display:inline;
-  top:1.4%;
-}
-
-div#work-selection.slider{
-  right:1.25%;
-}
+}*/
 
 #work-selection{
-
   position: absolute;
-  width:94%;
-  left:23.9%;
-  margin-top:3%;
-  overflow:auto;
-  clear:both;
-  content:' ';
+  width:100%;
+  top: 183%;
   display:table;
-
 }
 
 
 .work-thumbnail{
-  /*width:100%;*/
-  width:220px !important;
-  /*padding: 10px;*/
+  width:21% !important;
   position: relative;
-  right: 250px;
-  height: 120px !important;
-  bottom:0;
-  top:10px;
-  margin-right:75px;
-
+  margin: 1%;
 }
 
 .work-thumbnail:hover{
@@ -235,7 +233,6 @@ div#work-selection.slider{
   text-align:left;
   width:95%;
   padding-left:50px;
-
 }
 
 .project-header{
@@ -244,18 +241,12 @@ div#work-selection.slider{
   width:45%;
   margin-left:55%;
   margin-top:30px;
-
 }
 
 .detail{
   margin-left:55%;
   width:45%;
   font-size:20px;
-}
-
-.placeholder{
-
-  height:166px;
 }
 
 .hidden{
@@ -269,29 +260,12 @@ div#work-selection.slider{
 .see-work{
   margin-bottom:20px;
   font-size:15px;
-  margin-left:4.5%;
+  margin-left:14.7%;
   margin-top:5px;
   font-weight:500;
   color:rgb(62,47,109);
   z-index:0;
 }
-
-/*RESUME DIV*/
-
-
-#resume-div {
-  left:0;
-  right:0;
-  height:100vh;
-  background-color:purple;
-  z-index:-1;
-  padding-top:80px;
-
-
-}
-
-
-
 
 /*CONTACT DIV*/
 
@@ -302,14 +276,14 @@ div#work-selection.slider{
   height:100vh;
   background-color:rgb(62,47,109);
   z-index:-1;
-  padding-top:150px;
+  padding-top:10%;
+  margin-top: 5%;
   margin-bottom:0;
-
 }
 
 #headshot{
   width:63%;
-  height:350px;
+  height:auto;
   border-radius:5px;
   margin-left:20%;
   margin-top:20px;
@@ -338,7 +312,6 @@ div#work-selection.slider{
   color:white;
   font-size:20px;
   width:90%;
-
 }
 
 #skills{
@@ -352,22 +325,17 @@ div#work-selection.slider{
 
 .icons{
   width:16.5%;
-
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
 }
-
-
 
 #icon-box{
   border:3px solid white;
-  border-radius:5px;
-  padding-left:20.10934px;
-  padding-right:10px;
-  padding-top:5px;
-  padding-bottom:5px;
-  width:64%;
+  border-radius:5%;
+  width:63%;
   margin-left:20%;
-  margin-top:15px;
-
+  margin-top:4%;
 }
 
 a.icon-link{
@@ -383,29 +351,9 @@ span #mail-contact{
 }
 
 
-#github{
-  /*margin-left:5.4%;*/
-  margin-right:6.8%;
-}
-
-#linkedin{
-
-  margin-right:6.8%;
-}
-
-#facebook{
-
-  margin-right:6.8%;
-}
-
-#mail-contact{
-  /*margin-right:10.8%;*/
-  margin-right:6.8%;
-}
 
 
 .resume-btn{
-
   height:25px;
   width:70px;
   font-size:16px;
@@ -418,7 +366,6 @@ span #mail-contact{
 }
 
 .resume-btn:hover{
-  /*background-color:white;*/
   background-color:rgb(114,191,182);
 }
 
@@ -439,7 +386,3 @@ a.resume-btn{
   font-size:24px;
 
 }
-
-
-
-

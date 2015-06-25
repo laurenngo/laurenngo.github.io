@@ -17,28 +17,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
   });
 
-  //SLICK Carousel
+  // var monitorStuff = function(){
+  //   var screenHeight = $(window).height();
+  //   var screenWidth = $(window).width();
 
-  $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
-  $('.slider-nav').slick({
-    slidesToShow: 4,
-    slidesToScroll: 0,
-    asNavFor: '.slider-for',
-    dots: true,
-    arrows: false,
-    centerMode: true,
-    centerPadding: '0px',
-    autoplay: false,
-    focusOnSelect: true,
-    swipeToSlide: true
-  });
+  //   $('#monitor').css({ left : screenWidth/14 , top : -(screenHeight/2.5) , width : screenWidth/2.8});
+  //   $('.monitor-img').css({ left : screenWidth/10 , top : screenHeight/9 , width : screenWidth/2.8});
+  // }  
 
+  // $(window).load(function(){monitorStuff()});
+  // $(window).resize(function(){monitorStuff()});
+
+  ////////////////////////////////////////////////////////////////////
+  // We need to clean up this ugly code - we need a better solution //
+  ////////////////////////////////////////////////////////////////////
 
   $('#rex-thumb').on('click', function(){
     // alert('clicked rex!');
