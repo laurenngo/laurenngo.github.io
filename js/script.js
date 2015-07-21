@@ -17,19 +17,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
   });
 
-  // var monitorStuff = function(){
-  //   var screenHeight = $(window).height();
-  //   var screenWidth = $(window).width();
 
-  //   $('#monitor').css({ left : screenWidth/14 , top : -(screenHeight/2.5) , width : screenWidth/2.8});
-  //   $('.monitor-img').css({ left : screenWidth/10 , top : screenHeight/9 , width : screenWidth/2.8});
-  // }  
+  // mobile nav
 
-  // $(window).load(function(){monitorStuff()});
-  // $(window).resize(function(){monitorStuff()});
+
+  // Initialize collapse button
+  $("#hamburger").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+
 
   ////////////////////////////////////////////////////////////////////
-  // We need to clean up this ugly code - we need a better solution //
+  // Clean up - we need a better solution //
   ////////////////////////////////////////////////////////////////////
 
   $('#rex-thumb').on('click', function(){

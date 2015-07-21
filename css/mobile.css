@@ -4,7 +4,117 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-  body{
-    width: 100%;
+
+  /*GENERAL*/
+
+  body, html {
+   width: auto !important;
+   overflow-x: hidden !important;
   }
+
+  #desktop{
+  	display:none;
+  	width:100%;
+  }
+
+
+  #hamburger{
+  	display:inline;
+  	font-size:28px;
+  	float:right;
+  	margin-right:15px;
+  }
+
+  #mobile{
+  	display:inline;
+  	width:100vw;
+
+  }
+
+  .side-nav{
+  	background-color:rgb(62,47,109);
+  	padding-top:20px;
+  }
+
+  a.mobile-links{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
+  font-size:20px;
+  color:white;
+  }
+
+  a.mobile-links::selected{
+  	color:rgb(62,47,109) !important;
+  }
+
+  #occupation, .options{
+  	font-size:35px;
+  }
+
+  #name{
+  	font-size:55px;
+  }
+
+
+
+
+  /*WORK DIV*/
+
+  #work-div{
+  	padding-top:50px;
+  }
+
+  .work-header{
+  	font-size:35px;
+  }
+
+  .work-thumbnail{
+  	display:block;
+  	width:40% !important;
+  	margin-top:0;
+  	margin-bottom:0;
+  }
+
+  #work-selection{
+  	top:140%;
+  }
+
+  .detail{
+  	font-size:14px;
+  }
+
+  div.project-header{
+  	font-size:30px;
+  	width:100%;
+  	/*margin-top:-10%;*/
+  }
+
+  .see-work{
+  	margin-left:-54%;
+  }
+
+  /*CONTACT DIV*/
+
+  #hi{
+  	font-size:42px;
+  	text-align:center;
+  	margin-top:20px;
+  }
+
+  #skills{
+  	margin:0 auto;
+  	margin-bottom:20px;
+  }
+
+  #contact-details{
+  	text-align:justify;
+  	margin-right:0;
+  }
+
+  p#more-details{
+  	width:100%;  }
+
+
+
 }

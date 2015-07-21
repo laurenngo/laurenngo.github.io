@@ -30,6 +30,14 @@ footer{
   padding-top:14px;
 }
 
+#hamburger{
+  display:none;
+}
+
+#mobile{
+  display:none;
+}
+
 /*HOME DIV*/
 
 #home-div {
