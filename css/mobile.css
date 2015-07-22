@@ -56,6 +56,12 @@
   	font-size:55px;
   }
 
+  /*HOME DIV*/
+
+  #home-div{
+        background-position:-100px 52px;
+  }
+
 
 
 
@@ -63,6 +69,7 @@
 
   #work-div{
   	padding-top:50px;
+
   }
 
   .work-header{
@@ -88,12 +95,11 @@
   div.project-header{
   	font-size:30px;
   	width:100%;
-  	/*margin-top:-10%;*/
+
   }
 
   .see-work{
   	margin-left:-54%;
-  	/*width:30%;*/
   	padding-left:12px;
   	padding-right:12px;
   }
