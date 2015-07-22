@@ -160,52 +160,6 @@ footer{
   left: 40.5%;
 }
 
-/*
-#monitor{
-  width:100%;
-  position:relative;
-}*/
-/*
-.screen-images{
-  width:83.5%;
-  position:relative;
-  bottom:0.7%;
-}*/
-
-/*#monitor-div {
-  width: 40%;
-  height:auto;
-}*/
-
-/*#monitor-div > img {
-  height: 100%;
-  width: 96.4%;
-  position: relative;
-  top: 110%;
-  left: 24.8%;
-}*/
-
-/*#monitor {
-  position: absolute;
-  top: 112%;
-  left: 8.7%;
-  width: 40%;
-  height: auto;
-}*/
-/*
-.monitor-img{
-  position: relative;
-  left: 50%;
-  top: 50%;
-  width:100%;
-}*/
-
-/*#monitor-img-div{
-  position:relative;
-  bottom:48.8%;
-  left:4%;
-  width:90%;
-}*/
 
 #work-selection{
   position: absolute;
@@ -361,8 +315,6 @@ span #mail-contact{
 .icon-link:hover{
   color:rgb(114,191,182);
 }
-
-
 
 
 .resume-btn{

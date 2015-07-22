@@ -67,6 +67,7 @@
 
   .work-header{
   	font-size:35px;
+  	margin-left:45%;
   }
 
   .work-thumbnail{
@@ -92,6 +93,9 @@
 
   .see-work{
   	margin-left:-54%;
+  	/*width:30%;*/
+  	padding-left:12px;
+  	padding-right:12px;
   }
 
   /*CONTACT DIV*/

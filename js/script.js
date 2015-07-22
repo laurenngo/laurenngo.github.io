@@ -23,16 +23,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
   // Initialize collapse button
   $("#hamburger").sideNav();
-  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-  //$('.collapsible').collapsible();
 
 
-  ////////////////////////////////////////////////////////////////////
-  // Clean up - we need a better solution //
-  ////////////////////////////////////////////////////////////////////
+
+// Toggle work 
 
   $('#rex-thumb').on('click', function(){
-    // alert('clicked rex!');
     //text
     $('#rex-details').removeClass('hidden').addClass('show');
     $('#fstvl-details').removeClass('show').addClass('hidden');
