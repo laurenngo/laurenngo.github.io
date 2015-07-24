@@ -69,6 +69,7 @@
 
   #work-div{
   	padding-top:50px;
+    height:850px;
 
   }
 
@@ -85,11 +86,13 @@
   }
 
   #work-selection{
-  	top:150%;
+  	top:154%;
   }
 
   .detail{
-  	font-size:14px;
+  	font-size:16px;
+    width:59%;
+    margin-left:42%;
   }
 
   div.project-header{
