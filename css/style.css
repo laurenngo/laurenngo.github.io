@@ -180,7 +180,7 @@ footer{
 
 .work-thumbnail:hover{
   opacity:0.8;
-  border:4px solid rgb(72,70,72);
+  /*border:4px solid rgb(72,70,72);*/
   border-radius:5px;
   padding:4px;
 
