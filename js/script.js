@@ -39,6 +39,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#fstvl-monitor-img').removeClass('show').addClass('hidden');
     $('#foodli-monitor-img').removeClass('show').addClass('hidden');
     $('#wlg-monitor-img').removeClass('show').addClass('hidden');
+    // active
+    $('#rex-thumb').css("border", "4px solid rgb(62,47,109)");
+    $('#fstvl-thumb').css("border", "none");
+    $('#foodli-thumb').css("border", "none");
+    $('#wlg-thumb').css("border", "none");
   });
 
    $('#fstvl-thumb').on('click', function(){
@@ -52,6 +57,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#rex-monitor-img').removeClass('show').addClass('hidden');
     $('#foodli-monitor-img').removeClass('show').addClass('hidden');
     $('#wlg-monitor-img').removeClass('show').addClass('hidden');
+     // active
+    $('#fstvl-thumb').css("border", "4px solid rgb(62,47,109)");
+    $('#rex-thumb').css("border", "none");
+    $('#foodli-thumb').css("border", "none");
+    $('#wlg-thumb').css("border", "none");
 
   });
 
@@ -66,6 +76,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#rex-monitor-img').removeClass('show').addClass('hidden');
     $('#fstvl-monitor-img').removeClass('show').addClass('hidden');
     $('#wlg-monitor-img').removeClass('show').addClass('hidden');
+     // active
+    $('#foodli-thumb').css("border", "4px solid rgb(62,47,109)");
+    $('#fstvl-thumb').css("border", "none");
+    $('#rex-thumb').css("border", "none");
+    $('#wlg-thumb').css("border", "none");
   });
 
    $('#wlg-thumb').on('click', function(){
@@ -79,6 +94,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#rex-monitor-img').removeClass('show').addClass('hidden');
     $('#fstvl-monitor-img').removeClass('show').addClass('hidden');
     $('#foodli-monitor-img').removeClass('show').addClass('hidden');
+     // active
+    $('#wlg-thumb').css("border", "4px solid rgb(62,47,109)");
+    $('#fstvl-thumb').css("border", "none");
+    $('#foodli-thumb').css("border", "none");
+    $('#rex-thumb').css("border", "none");
   });
 
 

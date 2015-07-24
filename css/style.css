@@ -164,7 +164,7 @@ footer{
 #work-selection{
   position: absolute;
   width:100%;
-  top: 172%;
+  top: 170%;
   display:table;
 }
 
@@ -180,11 +180,15 @@ footer{
 
 .work-thumbnail:hover{
   opacity:0.8;
-  border:4px solid rgb(62,47,109);
+  border:4px solid rgb(72,70,72);
   border-radius:5px;
   padding:4px;
 
 
+}
+
+#rex-thumb{
+  border:4px solid rgb(62,47,109);
 }
 
 .project-details{
@@ -231,6 +235,7 @@ footer{
   font-weight:500;
   color:rgb(62,47,109);
   z-index:0;
+  
 }
 
 /*CONTACT DIV*/
