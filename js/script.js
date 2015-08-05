@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // mobile nav
 
 
-  // Initialize collapse button
-  $("#hamburger").sideNav();
+    // Initialize collapse button
+    $("#hamburger").sideNav();
 
 
 
@@ -100,9 +100,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     $('#foodli-thumb').css("border", "none");
     $('#rex-thumb').css("border", "none");
   });
-
-
-
-
 
 });
